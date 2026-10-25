@@ -1,0 +1,438 @@
+** Drc report for ExitIQ.kicad_pcb **
+** Created on 2026-10-24T18:55:01 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 105 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(5.8000 mm, 11.3200 mm): Pad A1 [GND] of J1 on F.Cu
+    @(6.1100 mm, 12.3950 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(5.8000 mm, 11.3200 mm): Pad B12 [GND] of J1 on F.Cu
+    @(6.1100 mm, 12.3950 mm): NPTH pad of J1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(21.2875 mm, 64.0000 mm): Pad 2 [Net-(U3-SW)] of U3 on F.Cu
+    @(21.2875 mm, 63.5000 mm): Pad 1 [/V_SYS] of U3 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(12.2000 mm, 11.3200 mm): Pad A12 [GND] of J1 on F.Cu
+    @(11.8900 mm, 12.3950 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(12.2000 mm, 11.3200 mm): Pad B1 [GND] of J1 on F.Cu
+    @(11.8900 mm, 12.3950 mm): NPTH pad of J1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(21.2875 mm, 64.0000 mm): Pad 2 [Net-(U3-SW)] of U3 on F.Cu
+    @(21.2875 mm, 64.5000 mm): Pad 3 [GND] of U3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(22.7125 mm, 64.0000 mm): Pad 5 [Net-(U3-FB)] of U3 on F.Cu
+    @(22.7125 mm, 64.5000 mm): Pad 4 [+5V] of U3 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(22.7125 mm, 64.0000 mm): Pad 5 [Net-(U3-FB)] of U3 on F.Cu
+    @(22.7125 mm, 63.5000 mm): Pad 6 [/V_SYS] of U3 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(62.1000 mm, 74.0000 mm): Footprint LED4
+    @(55.4000 mm, 74.0000 mm): Footprint LED3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(62.1000 mm, 74.0000 mm): Footprint LED4
+    @(68.8000 mm, 74.0000 mm): Footprint LED5
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(95.0000 mm, 75.0000 mm): Footprint H3
+    @(88.9000 mm, 74.0000 mm): Footprint LED8
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(75.5000 mm, 74.0000 mm): Footprint LED6
+    @(82.2000 mm, 74.0000 mm): Footprint LED7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(75.5000 mm, 74.0000 mm): Footprint LED6
+    @(68.8000 mm, 74.0000 mm): Footprint LED5
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(55.4000 mm, 74.0000 mm): Footprint LED3
+    @(48.7000 mm, 74.0000 mm): Footprint LED2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(48.7000 mm, 74.0000 mm): Footprint LED2
+    @(42.0000 mm, 74.0000 mm): Footprint LED1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(88.9000 mm, 74.0000 mm): Footprint LED8
+    @(82.2000 mm, 74.0000 mm): Footprint LED7
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(72.0000 mm, 14.0000 mm): Segment on Edge.Cuts
+    @(72.5700 mm, 16.0000 mm): Reference field of R_SCL
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(72.0000 mm, 28.0000 mm): Segment on Edge.Cuts
+    @(72.5700 mm, 20.0000 mm): Reference field of R_SDA
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+    @(52.2000 mm, 76.3000 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(69.7300 mm, 13.2700 mm): Segment of J_MCU_RIGHT on F.Silkscreen
+    @(68.8000 mm, 66.5700 mm): Reference field of C_LED5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.0000 mm, 66.5700 mm): Reference field of C_LED1
+    @(44.3300 mm, 13.2700 mm): Segment of J_MCU_LEFT on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.5000 mm, 71.2500 mm): Segment of LED1 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.5000 mm, 76.3000 mm): Segment of LED1 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.7500 mm, 76.7500 mm): Segment of LED2 on F.Silkscreen
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.7500 mm, 76.7500 mm): Segment of LED2 on F.Silkscreen
+    @(51.9000 mm, 76.7500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(65.1500 mm, 76.7500 mm): Segment of LED4 on F.Silkscreen
+    @(65.3000 mm, 76.7500 mm): Segment of LED5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.8500 mm, 76.7500 mm): Segment of LED5 on F.Silkscreen
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.8500 mm, 76.7500 mm): Segment of LED5 on F.Silkscreen
+    @(72.0000 mm, 76.7500 mm): Segment of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(34.9100 mm, 71.6100 mm): Segment of U4 on F.Silkscreen
+    @(35.5700 mm, 72.0000 mm): Reference field of R_DAMP
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.5000 mm, 71.2500 mm): Segment of LED1 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0500 mm, 76.7500 mm): Segment of LED1 on F.Silkscreen
+    @(45.2000 mm, 76.7500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0500 mm, 76.7500 mm): Segment of LED1 on F.Silkscreen
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.0000 mm, 66.5700 mm): Reference field of C_LED1
+    @(41.6700 mm, 66.6700 mm): Segment of J_MCU_LEFT on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(86.0000 mm, 45.9360 mm): Footprint text of SW1 (REF**)
+    @(86.0000 mm, 45.9360 mm): Reference field of SW1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.7000 mm, 76.3000 mm): Segment of LED7 on F.Silkscreen
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.2500 mm, 76.7500 mm): Segment of LED7 on F.Silkscreen
+    @(85.4000 mm, 76.7500 mm): Segment of LED8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+    @(85.2500 mm, 76.7500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(79.0000 mm, 76.3000 mm): Segment of LED6 on F.Silkscreen
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(78.5500 mm, 76.7500 mm): Segment of LED6 on F.Silkscreen
+    @(78.7000 mm, 76.7500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(78.5500 mm, 76.7500 mm): Segment of LED6 on F.Silkscreen
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(58.9000 mm, 76.3000 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 76.7500 mm): Segment of LED4 on F.Silkscreen
+    @(58.4500 mm, 76.7500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+    @(65.6000 mm, 76.3000 mm): Segment of LED4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(58.4500 mm, 76.7500 mm): Segment of LED3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+    @(65.1500 mm, 76.7500 mm): Segment of LED4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(72.3000 mm, 76.3000 mm): Segment of LED5 on F.Silkscreen
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(67.0700 mm, 66.6700 mm): Segment of J_MCU_RIGHT on F.Silkscreen
+    @(68.8000 mm, 66.5700 mm): Reference field of C_LED5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0000 mm, 29.0000 mm): PCB text 'OLED' on F.Silkscreen
+    @(94.0000 mm, 29.2300 mm): Reference field of J_OLED
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(60.5000 mm, 14.0000 mm): Reference field of D_FLY
+    @(60.0500 mm, 16.0000 mm): Segment of BZ1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0000 mm, 11.6200 mm): Reference field of J_EXP
+    @(94.0000 mm, 11.0000 mm): PCB text 'EXPANSION' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(72.5700 mm, 16.0000 mm): Reference field of R_SCL
+    @(72.5700 mm, 20.0000 mm): Reference field of R_SDA
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(34.5700 mm, 46.0000 mm): Reference field of R_CHG
+    @(34.3500 mm, 42.0000 mm): Reference field of D_CHG
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(22.0000 mm, 62.3500 mm): Reference field of U3
+    @(21.2800 mm, 63.0600 mm): Polygon of U3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(36.5700 mm, 11.0000 mm): Reference field of R_LED_PWR
+    @(35.0000 mm, 11.0000 mm): Pad 2 [/VBUS_FUSED] of D1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+    @(51.1500 mm, 75.6500 mm): Pad 3 [GND] of LED2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(51.9000 mm, 71.2500 mm): Segment of LED3 on F.Silkscreen
+    @(51.1500 mm, 72.3500 mm): Pad 4 [Net-(LED1-DOUT)] of LED2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(52.2000 mm, 76.3000 mm): Segment of LED2 on F.Silkscreen
+    @(52.9500 mm, 72.3500 mm): Pad 1 [+5V] of LED3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(52.2000 mm, 76.3000 mm): Segment of LED2 on F.Silkscreen
+    @(52.9500 mm, 75.6500 mm): Pad 2 [Net-(LED3-DOUT)] of LED3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.1000 mm, 72.4000 mm): Footprint text of LED4 (1)
+    @(57.8500 mm, 72.3500 mm): Pad 4 [Net-(LED2-DOUT)] of LED3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(35.5700 mm, 72.0000 mm): Reference field of R_DAMP
+    @(35.1375 mm, 72.9500 mm): Pad 4 [Net-(U4-Y)] of U4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.5000 mm, 76.3000 mm): Segment of LED1 on F.Silkscreen
+    @(46.2500 mm, 72.3500 mm): Pad 1 [+5V] of LED2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.5000 mm, 76.3000 mm): Segment of LED1 on F.Silkscreen
+    @(46.2500 mm, 75.6500 mm): Pad 2 [Net-(LED2-DOUT)] of LED2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(35.5700 mm, 72.0000 mm): Reference field of R_DAMP
+    @(35.1375 mm, 71.0500 mm): Pad 5 [+5V] of U4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(42.0000 mm, 66.5700 mm): Reference field of C_LED1
+    @(43.0000 mm, 65.3400 mm): PTH pad 22 [GND] of J_MCU_LEFT
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(51.4000 mm, 72.4000 mm): Footprint text of LED3 (1)
+    @(51.1500 mm, 72.3500 mm): Pad 4 [Net-(LED1-DOUT)] of LED2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+    @(44.4500 mm, 75.6500 mm): Pad 3 [GND] of LED1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.2000 mm, 71.2500 mm): Segment of LED2 on F.Silkscreen
+    @(44.4500 mm, 72.3500 mm): Pad 4 [/LED_CHAIN_IN] of LED1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(44.7000 mm, 72.4000 mm): Footprint text of LED2 (1)
+    @(44.4500 mm, 72.3500 mm): Pad 4 [/LED_CHAIN_IN] of LED1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.7000 mm, 76.3000 mm): Segment of LED7 on F.Silkscreen
+    @(86.4500 mm, 72.3500 mm): Pad 1 [+5V] of LED8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.7000 mm, 76.3000 mm): Segment of LED7 on F.Silkscreen
+    @(86.4500 mm, 75.6500 mm): Pad 2 [/LED_EXT_DOUT] of LED8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(78.2000 mm, 72.4000 mm): Footprint text of LED7 (1)
+    @(77.9500 mm, 72.3500 mm): Pad 4 [Net-(LED5-DOUT)] of LED6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+    @(84.6500 mm, 75.6500 mm): Pad 3 [GND] of LED7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.4000 mm, 71.2500 mm): Segment of LED8 on F.Silkscreen
+    @(84.6500 mm, 72.3500 mm): Pad 4 [Net-(LED6-DOUT)] of LED7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.9000 mm, 72.4000 mm): Footprint text of LED8 (1)
+    @(84.6500 mm, 72.3500 mm): Pad 4 [Net-(LED6-DOUT)] of LED7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+    @(77.9500 mm, 75.6500 mm): Pad 3 [GND] of LED6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(78.7000 mm, 71.2500 mm): Segment of LED7 on F.Silkscreen
+    @(77.9500 mm, 72.3500 mm): Pad 4 [Net-(LED5-DOUT)] of LED6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.6000 mm, 76.3000 mm): Segment of LED4 on F.Silkscreen
+    @(66.3500 mm, 72.3500 mm): Pad 1 [+5V] of LED5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.6000 mm, 76.3000 mm): Segment of LED4 on F.Silkscreen
+    @(66.3500 mm, 75.6500 mm): Pad 2 [Net-(LED5-DOUT)] of LED5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(64.8000 mm, 72.4000 mm): Footprint text of LED5 (1)
+    @(64.5500 mm, 72.3500 mm): Pad 4 [Net-(LED3-DOUT)] of LED4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(71.5000 mm, 72.4000 mm): Footprint text of LED6 (1)
+    @(71.2500 mm, 72.3500 mm): Pad 4 [Net-(LED4-DOUT)] of LED5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(57.8500 mm, 72.3500 mm): Pad 4 [Net-(LED2-DOUT)] of LED3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.6000 mm, 71.2500 mm): Segment of LED4 on F.Silkscreen
+    @(57.8500 mm, 75.6500 mm): Pad 3 [GND] of LED3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.9000 mm, 76.3000 mm): Segment of LED3 on F.Silkscreen
+    @(59.6500 mm, 72.3500 mm): Pad 1 [+5V] of LED4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.9000 mm, 76.3000 mm): Segment of LED3 on F.Silkscreen
+    @(59.6500 mm, 75.6500 mm): Pad 2 [Net-(LED4-DOUT)] of LED4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+    @(71.2500 mm, 75.6500 mm): Pad 3 [GND] of LED5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(72.0000 mm, 71.2500 mm): Segment of LED6 on F.Silkscreen
+    @(71.2500 mm, 72.3500 mm): Pad 4 [Net-(LED4-DOUT)] of LED5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+    @(64.5500 mm, 75.6500 mm): Pad 3 [GND] of LED4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(65.3000 mm, 71.2500 mm): Segment of LED5 on F.Silkscreen
+    @(64.5500 mm, 72.3500 mm): Pad 4 [Net-(LED3-DOUT)] of LED4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(79.0000 mm, 76.3000 mm): Segment of LED6 on F.Silkscreen
+    @(79.7500 mm, 72.3500 mm): Pad 1 [+5V] of LED7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(79.0000 mm, 76.3000 mm): Segment of LED6 on F.Silkscreen
+    @(79.7500 mm, 75.6500 mm): Pad 2 [Net-(LED7-DOUT)] of LED7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(72.3000 mm, 76.3000 mm): Segment of LED5 on F.Silkscreen
+    @(73.0500 mm, 72.3500 mm): Pad 1 [+5V] of LED6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(72.3000 mm, 76.3000 mm): Segment of LED5 on F.Silkscreen
+    @(73.0500 mm, 75.6500 mm): Pad 2 [Net-(LED6-DOUT)] of LED6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(68.8000 mm, 66.5700 mm): Reference field of C_LED5
+    @(68.4000 mm, 65.3400 mm): PTH pad 22 [GND] of J_MCU_RIGHT
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

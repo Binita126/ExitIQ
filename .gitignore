@@ -1,0 +1,30 @@
+# KiCad Temporary & Auto-generated Files
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.tmp
+*.lck
+*.drc
+
+# CAD / CATIA Temporary Files
+*.bak
+*.tmp
+*~$*
+*.swp
+*.swn
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.directory
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

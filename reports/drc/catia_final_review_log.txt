@@ -1,0 +1,42 @@
+=== CATIA V5 Final Engineering Assembly Inspection ===
+Date/Time: 24-10-2026 7.06.43 PM
+Opening FinalCheck Product: C:\Users\RHESSA\Downloads\ExitIQ_CAD_Project\mechanical\enclosure\ExitIQ_Enclosure_Assembly_FinalCheck.CATProduct
+Assembly Part Number: ExitIQ_Enclosure_Assembly
+Component count: 3
+  Component 1: ExitIQ_Enclosure_Base.1 (PartNumber: ExitIQ_Enclosure_Base)
+  Component 2: ExitIQ 1.1 (PartNumber: ExitIQ 1)
+  Component 3: ExitIQ_Enclosure_Lid.1 (PartNumber: ExitIQ_Enclosure_Lid)
+SPAWorkbench successfully initialized for measurements
+Coordinate Datum Check:
+  PCB Origin: (0.000, 0.000, 0.000) mm
+  PCB X-span: [0.000, 100.000] mm
+  PCB Y-span: [-80.000, 0.000] mm
+  PCB Z-span: [0.000, 1.600] mm
+Enclosure Base Outer Dimensions:
+  X-span: [-7.000, 107.000] mm (Width: 114.000 mm)
+  Y-span: [-87.000, 7.000] mm (Length: 94.000 mm)
+  Z-span: [-7.000, 5.000] mm (Height: 12.000 mm)
+Enclosure Base Interior Cavity (Open Tub):
+  X-span: [-2.000, 102.000] mm (Width: 104.000 mm)
+  Y-span: [-82.000, 2.000] mm (Length: 84.000 mm)
+  Z-span: [-4.500, 5.000] mm (Depth: 9.500 mm)
+  Uniform Perimeter Edge Clearance: 2.000 mm on all 4 sides
+PCB Mounting Bosses (Height: 4.500 mm, Z: -4.500 to 0.000 mm):
+  Boss 1: (5.000, -5.000) mm -> Radial error to PCB H1: 0.000 mm
+  Boss 2: (95.000, -5.000) mm -> Radial error to PCB H2: 0.000 mm
+  Boss 3: (95.000, -75.000) mm -> Radial error to PCB H3: 0.000 mm
+  Boss 4: (5.000, -75.000) mm -> Radial error to PCB H4: 0.000 mm
+Enclosure Lid Internal Headroom (Ceiling at Z = +16.500 mm):
+  PCB Substrate Top: Z = +1.600 mm
+  Internal Headroom Above PCB: 14.900 mm
+  ESP32-S3 Module in Sockets: Z_max = +14.100 mm -> Clearance = +2.400 mm
+  Bulk Radial Capacitor (C_LED_BULK): Z_max = +13.100 mm -> Clearance = +3.400 mm
+  Under-PCB Lead Clearance: Boss height 4.500 mm, max lead 3.400 mm -> Clearance = +1.100 mm
+Cutout and Aperture Alignments:
+  USB-C Port: Left wall Y in [-20.5, -9.5] mm, center Y=-15.000 mm -> J1 center Y=-15.000 mm (Offset: 0.000 mm)
+  Battery Port: Left wall Y in [-36.5, -27.5] mm, center Y=-32.000 mm -> J2 center Y=-32.000 mm (Offset: 0.000 mm)
+  OLED Display Window: Lid X in [80, 108] mm, Y in [-44, -28] mm -> center (94.0, -36.0) mm (Offset: 0.000 mm)
+  LED Egress Array Window: Lid X in [36, 91] mm, Y in [-77.5, -69.5] mm -> LEDs 1-8 at Y=-74.000 mm (Offset: 0.000 mm)
+  Acoustic Buzzer Port: Lid center (55.700, -14.000) mm -> BZ1 center (55.700, -14.000) mm (Offset: 0.000 mm)
+  User Test Button: Lid center (86.000, -50.000) mm -> SW1 center (86.000, -50.000) mm (Offset: 0.000 mm)
+  Sensor Louvers & Chimney: Right wall intake louvers & top lid exhaust chimney aligned over isolated sensor bay

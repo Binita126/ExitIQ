@@ -1,0 +1,6471 @@
+(export
+	(version "E")
+	(design
+		(source "c:\\Users\\RHESSA\\Downloads\\ExitIQ_CAD_Project\\hardware\\schematics\\ExitIQ.kicad_sch")
+		(date "2026-10-24T01:10:01")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "ExitIQ - Edge AI Emergency Evacuation Guidance Terminal")
+				(company "ExitIQ Project")
+				(rev "1.0.0")
+				(date "2026-10-24")
+				(source "ExitIQ.kicad_sch")
+				(comment
+					(number "1")
+					(value "ESP32-S3-DevKitC-1 Socket Carrier with BQ24074 Power-Path & Sensors")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BZ1")
+			(value "CMT-8540S-SMT")
+			(footprint "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Buzzer")
+				(description "Magnetic Buzzer")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8d58815f-1d2e-40ea-a183-4bbe1b2d6ede")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9d971bc0-9111-4144-a26b-ef96644d0ddf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BAT")
+			(value "10uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "407477e7-3547-4ad7-b401-3b569f5c8565")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BATT_FILT")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e103ae39-afd0-4752-85bf-e2d932921da5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BO1")
+			(value "22uF 10V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "37ffe2f3-92f1-4bfb-a656-b9469aa1f832")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BO2")
+			(value "22uF 10V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e15687e5-5167-4bb5-a29b-97407a885afe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BST_IN")
+			(value "10uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5c964836-b924-40bf-b44c-c53d0b91fbf1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BTN")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4920f834-afa6-4fdb-8615-4c493ea30ccd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_FF")
+			(value "22pF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "44035753-3e1a-4441-9ce2-3be919edfa00")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "66b3af53-717c-40c9-84b4-6fcc3e0edc83")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9a92bdfc-ec0b-4d7f-adcb-b2339bb55da0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED3")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd267e30-43fd-4e49-9197-93cdbeeafefe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED4")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5ea5d442-b641-47eb-a041-429bde2a5ce7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED5")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c27a56dc-b65d-4af4-9216-2014a3b28ddf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED6")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "621c0c10-d937-4251-9d21-27fff491603d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED7")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5f34e475-65c0-4763-866b-c29c81d7da9f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED8")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e24ed15d-a1c9-4a62-ad99-888f46a4eeef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LED_BULK")
+			(value "100uF 10V")
+			(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_Polarized_V")
+				(description "Polarized Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e3a566fd-e984-44d9-aee7-fe3113278753")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_OLED")
+			(value "10uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4af3ee9f-9353-436b-8528-5f08cc6580ea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_SGP")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "99092799-eee5-41cb-99f4-54f2b3321a93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_SHT")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fdf9390f-a737-457b-98e0-a024103929cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_SYS")
+			(value "10uF 16V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "C_V")
+				(description "Capacitor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12ddd960-3cb6-435e-8ed6-0f0be75ef0df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SMAJ5.0A")
+			(footprint "Diode_SMD:D_SMA")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "D_TVS_V")
+				(description "TVS Diode Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "35d85e31-710d-4ee2-ba9c-c2403d35baa5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_CHG")
+			(value "ORANGE (CHG)")
+			(footprint "LED_SMD:LED_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "LED_V")
+				(description "Light Emitting Diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6ff5afa6-98e4-4238-bde2-0babccdf79fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_FLY")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "D_1N4148W_V")
+				(description "Fast Switching Diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4b166970-0578-4b0c-b826-c798119df4a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_PWR")
+			(value "GREEN (MAINS)")
+			(footprint "LED_SMD:LED_0805_2012Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "LED_V")
+				(description "Light Emitting Diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a7afa80-c2c8-4cc4-9665-c2d37e4334db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "2.0A Hold")
+			(footprint "Fuse:Fuse_1812_4532Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Fuse:Fuse_1812_4532Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Fuse_H")
+				(description "PTC Fuse Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "068ee7f6-9de1-4927-a556-da033f8faa15")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "USB_C_5V_IN")
+			(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "USB_C_PowerOnly")
+				(description "USB-C Power Only")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d05ed9c4-bc3f-41bd-9a84-1c077266cd38")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "BATT_JST_PH")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Conn_01x02")
+				(description "2-pin Polarized Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5733caa2-f86b-4ce1-a926-0e0a3674e571")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_EXP")
+			(value "SENSOR_EXP_5P")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Conn_01x05")
+				(description "5-pin Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3503cd61-0c6f-482e-a778-52734b41ed20")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_LED_EXT")
+			(value "EXT_LED_STRIP_3P")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Conn_01x03")
+				(description "3-pin Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4dc5672b-696b-4e72-a1b3-fead5c4852a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_MCU_LEFT")
+			(value "DevKitC-1_J1")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "ESP32-S3-DevKitC-1_J1")
+				(description "ESP32-S3-DevKitC-1 Left Socket Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4917723e-01be-468f-8cff-3c5e5da8a543")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_MCU_RIGHT")
+			(value "DevKitC-1_J3")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "ESP32-S3-DevKitC-1_J3")
+				(description "ESP32-S3-DevKitC-1 Right Socket Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e83a0b58-2f80-48a6-a270-502d1200a4b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_OLED")
+			(value "OLED_SSD1306_4P")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Conn_01x04")
+				(description "4-pin Socket Header")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d5eba47a-7e04-4d87-89d5-b034f104c83b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "1.0uH 4.5A")
+			(footprint "Inductor_SMD:L_Coilcraft_XxL4020")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_Coilcraft_XxL4020")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "L_H")
+				(description "Inductor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ce2a442c-0e67-4a6b-8863-57dc892c6e65")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5360647-19b3-486d-8cb1-b2b8400d2aad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e5d38e0d-ae5e-466c-addd-059572fdc044")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "df8f16fa-9a36-4ff8-aa7f-dcd57446d8ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "93367af6-acc4-41f4-b34d-2a684fc457d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED5")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3cdb57a0-3931-4328-8321-f37e229ba4b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED6")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "05b6b329-43cc-4c78-a5ac-4742ea6e7d03")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED7")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e5bb26b8-55ad-4723-8a07-0f76f2540f4f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED8")
+			(value "WS2812B")
+			(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "WS2812B")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "816e6c40-80ac-4d90-82e7-64abf5294c59")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "2N7002")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "Q_NMOS_2N7002")
+				(description "N-Channel MOSFET")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be89c1ce-0fe0-4b47-94dc-89f61eebdf7e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_BAT1")
+			(value "100k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f492b78f-e135-46a9-a0fa-0a93a7c80569")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_BAT2")
+			(value "100k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b7e507e-e386-45f7-ad44-0fa1e46774d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_BTN")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "962a31b7-5a49-43cf-a3ef-3ee050723290")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_BZ_G")
+			(value "100")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "37783a4d-c23a-42fe-9373-fb8e4967fa1c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_BZ_PD")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c2879d0-d65f-4fce-aa19-07c791dd9352")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_CC1")
+			(value "5.1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "caf8ae49-b4ad-41c0-bf87-4805941b9bd2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_CC2")
+			(value "5.1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b5501c83-89d6-4064-b7c0-fefa98a6dda2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_CHG")
+			(value "1.5k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d42f1593-9ec1-427a-a95f-ce0605a57398")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_DAMP")
+			(value "330")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "02e43998-3517-467b-82bb-23964413c7ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_EN2")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8bff3a83-54fd-4d85-8db3-969e6bdabb28")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_FB1")
+			(value "732k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "28ff6375-5ceb-463b-b5f7-90639aeb67c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_FB2")
+			(value "100k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d6d5c09-a170-4738-ac58-5a10ac1f0db2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_ILIM")
+			(value "1.18k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a78bec0-018c-4c56-9489-14b01cf8f962")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_ISET")
+			(value "1.0k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "887f258a-67e9-4061-9a97-38b4a0acf4b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_LED_PWR")
+			(value "1.0k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7f3e7992-55b6-4e52-a3a4-a3cc702123c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PG")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "32947538-192b-4ad0-bdec-410cd617ab7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SCL")
+			(value "4.7k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8b786ea-d02c-422d-b773-9408c6a6a996")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SDA")
+			(value "4.7k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_V")
+				(description "Resistor Vertical")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "23e60d57-63ea-4628-9e46-66f71eb5aedb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_TMR")
+			(value "47k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f80a3ee8-73d7-413c-bb6e-c2fd22ccb975")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_TS")
+			(value "10k 1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "R_H")
+				(description "Resistor Horizontal")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2337442f-f749-4e6d-92b3-c5d76b5e028d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "TEST_BTN")
+			(footprint "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "SW_Push")
+				(description "Push Button")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03d982f9-8b24-4bc9-861a-eac9361fb7f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "BQ24074RGTR")
+			(footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "BQ24074RGTR")
+				(description "1.5A Li-Ion Charger with Dynamic Power-Path")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4fb838cf-4b84-4f32-a5a2-a4fb2ca2d126")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TPS61023DRLR")
+			(footprint "Package_TO_SOT_SMD:SOT-563")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-563")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "TPS61023DRLR")
+				(description "Synchronous Boost Converter 5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4616c750-ace8-4247-846c-961ad84fc06a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "74AHCT1G125")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "SN74AHCT1G125")
+				(description "Single Bus Buffer Gate 3-State")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa8eeb2e-0b8f-44dd-a012-f73d3720d382")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "SHT40-AD1B")
+			(footprint "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "SHT40-AD1B")
+				(description "High Accuracy Temp & Humidity Sensor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1dd44287-fc41-41c4-b965-42a85f86f783")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "SGP40-DIS")
+			(footprint "ExitIQ:Sensirion_DFN-6-1EP_2.44x2.44mm_P0.8mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Footprint") "ExitIQ:Sensirion_DFN-6-1EP_2.44x2.44mm_P0.8mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ExitIQ")
+				(part "SGP40-DIS")
+				(description "Indoor Air Quality VOC Sensor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ExitIQ")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ExitIQ.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "158f0f48-1366-4fbe-99ea-29bdf7f67549")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ExitIQ")
+			(part "BQ24074RGTR")
+			(description "1.5A Li-Ion Charger with Dynamic Power-Path")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "BQ24074RGTR")
+				(field
+					(name "Footprint") "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "1.5A Li-Ion Charger with Dynamic Power-Path")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TMR")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "BAT")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "BAT")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "~CE")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "EN1")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "EN2")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "SYSOFF")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "~PGOOD")
+					(type "open_collector")
+				)
+				(pin
+					(num "9")
+					(name "~CHG")
+					(type "open_collector")
+				)
+				(pin
+					(num "10")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "11")
+					(name "OUT")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "ILIM")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "TS")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "ISET")
+					(type "input")
+				)
+				(pin
+					(num "17")
+					(name "VSS")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Buzzer")
+			(description "Magnetic Buzzer")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "BZ")
+				(field
+					(name "Value") "CMT-8540S-SMT")
+				(field
+					(name "Footprint") "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Magnetic Buzzer")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "C_Polarized_V")
+			(description "Polarized Capacitor")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100uF")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Polarized Capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "C_V")
+			(description "Capacitor Vertical")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Capacitor Vertical")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Conn_01x02")
+			(description "2-pin Polarized Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "2-pin Polarized Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Conn_01x03")
+			(description "3-pin Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "3-pin Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Conn_01x04")
+			(description "4-pin Socket Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "4-pin Socket Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Conn_01x05")
+			(description "5-pin Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x05")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "5-pin Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "D_1N4148W_V")
+			(description "Fast Switching Diode")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Fast Switching Diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "D_TVS_V")
+			(description "TVS Diode Vertical")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "SMAJ5.0A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "TVS Diode Vertical")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "ESP32-S3-DevKitC-1_J1")
+			(description "ESP32-S3-DevKitC-1 Left Socket Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J_MCU")
+				(field
+					(name "Value") "ESP32-S3-DevKitC-1_J1")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "ESP32-S3-DevKitC-1 Left Socket Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "RST")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPIO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GPIO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GPIO46")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "5V")
+					(type "power_in")
+				)
+				(pin
+					(num "22")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "ESP32-S3-DevKitC-1_J3")
+			(description "ESP32-S3-DevKitC-1 Right Socket Header")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J_MCU")
+				(field
+					(name "Value") "ESP32-S3-DevKitC-1_J3")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "ESP32-S3-DevKitC-1 Right Socket Header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "TX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "RX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIO42")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIO41")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPIO40")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GPIO39")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIO38")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO37")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO36")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GPIO35")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIO45")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO48")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO47")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPIO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GPIO20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "22")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Fuse_H")
+			(description "PTC Fuse Horizontal")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "2.0A")
+				(field
+					(name "Footprint") "Fuse:Fuse_1812_4532Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "PTC Fuse Horizontal")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "LED_V")
+			(description "Light Emitting Diode")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Light Emitting Diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "L_H")
+			(description "Inductor Horizontal")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L_H")
+				(field
+					(name "Footprint") "Inductor_SMD:L_Coilcraft_XxL4020")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Inductor Horizontal")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "Q_NMOS_2N7002")
+			(description "N-Channel MOSFET")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7002")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "N-Channel MOSFET")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "R_H")
+			(description "Resistor Horizontal")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_H")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Resistor Horizontal")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "R_V")
+			(description "Resistor Vertical")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Resistor Vertical")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "SGP40-DIS")
+			(description "Indoor Air Quality VOC Sensor")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SGP40-DIS")
+				(field
+					(name "Footprint") "ExitIQ:Sensirion_DFN-6-1EP_2.44x2.44mm_P0.8mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Indoor Air Quality VOC Sensor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDDH")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "SHT40-AD1B")
+			(description "High Accuracy Temp & Humidity Sensor")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SHT40-AD1B")
+				(field
+					(name "Footprint") "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "High Accuracy Temp & Humidity Sensor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "VSS")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "SN74AHCT1G125")
+			(description "Single Bus Buffer Gate 3-State")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74AHCT1G125")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Single Bus Buffer Gate 3-State")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~OE")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "SW_Push")
+			(description "Push Button")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Push Button")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "TPS61023DRLR")
+			(description "Synchronous Boost Converter 5V")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS61023DRLR")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-563")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Synchronous Boost Converter 5V")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "SW")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "EN")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "USB_C_PowerOnly")
+			(description "USB-C Power Only")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "USB_C_PowerOnly")
+				(field
+					(name "Footprint") "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "USB-C Power Only")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VBUS")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "CC1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "CC2")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ExitIQ")
+			(part "WS2812B")
+			(description "RGB LED with integrated controller")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "WS2812B")
+				(field
+					(name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DIN")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "ExitIQ")
+			(uri "${KIPRJMOD}/../libraries/symbols/ExitIQ.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C_OLED")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SGP")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SHT")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_EXP")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "1")
+				(pinfunction "3V3_1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "2")
+				(pinfunction "3V3_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BTN")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PG")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SCL")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SDA")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "VDDH_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "VDD_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BO1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BO2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_FF")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED3")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED4")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED5")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED6")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED7")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED8")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED_BULK")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_FLY")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LED_EXT")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "21")
+				(pinfunction "5V_21")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED4")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED5")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED6")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED7")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED8")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R_FB1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "VOUT_4")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/BATT_SENSE")
+			(class "Default")
+			(node
+				(ref "C_BATT_FILT")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "4")
+				(pinfunction "GPIO1_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R_BAT1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BAT2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/BUZZER_CTRL")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "5")
+				(pinfunction "GPIO5_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R_BZ_G")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/CC1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "CC1_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CC1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/CC2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "CC2_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CC2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/EXP_ADC")
+			(class "Default")
+			(node
+				(ref "J_EXP")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "5")
+				(pinfunction "GPIO2_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/I2C_SCL")
+			(class "Default")
+			(node
+				(ref "J_EXP")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "16")
+				(pinfunction "GPIO10_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SCL")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "SCL_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "SCL_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/I2C_SDA")
+			(class "Default")
+			(node
+				(ref "J_EXP")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "15")
+				(pinfunction "GPIO9_15")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SDA")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "SDA_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "SDA_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/LED_CHAIN_IN")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R_DAMP")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/LED_DATA_3V3")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "4")
+				(pinfunction "GPIO4_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/LED_EXT_DOUT")
+			(class "Default")
+			(node
+				(ref "J_LED_EXT")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED8")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
+			(name "/PGOOD")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "6")
+				(pinfunction "GPIO6_6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R_PG")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "~PGOOD_8")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "14")
+			(name "/USER_BTN")
+			(class "Default")
+			(node
+				(ref "C_BTN")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "18")
+				(pinfunction "GPIO21_18")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R_BTN")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/VBAT")
+			(class "Default")
+			(node
+				(ref "C_BAT")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BAT1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "BAT_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "BAT_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/VBUS")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "VBUS_1")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "17")
+			(name "/VBUS_FUSED")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CHG")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_EN2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_PWR")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "IN_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "IN_14")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "18")
+			(name "/V_SYS")
+			(class "Default")
+			(node
+				(ref "C_BST_IN")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SYS")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "OUT_10")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "OUT_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "EN_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BAT")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BATT_FILT")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BO1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BO2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BST_IN")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BTN")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED3")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED4")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED5")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED6")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED7")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED8")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LED_BULK")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_OLED")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SGP")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SHT")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_SYS")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_PWR")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "SHIELD_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_EXP")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LED_EXT")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "22")
+				(pinfunction "GND_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "21")
+				(pinfunction "GND_21")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "22")
+				(pinfunction "GND_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED1")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED2")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED3")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED4")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED5")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED6")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED7")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "LED8")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BAT2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BZ_PD")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CC1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CC2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_FB2")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_ILIM")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_ISET")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_TMR")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_TS")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "VSS_17")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "~CE_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "EN1_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "SYSOFF_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "~OE_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "VSS_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(BZ1--)")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_FLY")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(D_CHG-A)")
+			(class "Default")
+			(node
+				(ref "D_CHG")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_CHG")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(D_CHG-K)")
+			(class "Default")
+			(node
+				(ref "D_CHG")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "~CHG_9")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(D_PWR-A)")
+			(class "Default")
+			(node
+				(ref "D_PWR")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_PWR")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(LED1-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED2")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(LED2-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED3")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(LED3-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED4")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(LED4-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED4")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED5")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(LED5-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED5")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED6")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(LED6-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED6")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED7")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(LED7-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED7")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "output")
+			)
+			(node
+				(ref "LED8")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(Q1-G)")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R_BZ_G")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_BZ_PD")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(U2-EN2)")
+			(class "Default")
+			(node
+				(ref "R_EN2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "EN2_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(U2-ILIM)")
+			(class "Default")
+			(node
+				(ref "R_ILIM")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "ILIM_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(U2-ISET)")
+			(class "Default")
+			(node
+				(ref "R_ISET")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "ISET_16")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(U2-TMR)")
+			(class "Default")
+			(node
+				(ref "R_TMR")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "TMR_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(U2-TS)")
+			(class "Default")
+			(node
+				(ref "R_TS")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "TS_15")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(U3-FB)")
+			(class "Default")
+			(node
+				(ref "C_FF")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_FB1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_FB2")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(U3-SW)")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "SW_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(U4-Y)")
+			(class "Default")
+			(node
+				(ref "R_DAMP")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J_MCU_LEFT-GPIO3-Pad13)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "13")
+				(pinfunction "GPIO3_13")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J_MCU_LEFT-GPIO7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "7")
+				(pinfunction "GPIO7_7")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J_MCU_LEFT-GPIO8-Pad12)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "12")
+				(pinfunction "GPIO8_12")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J_MCU_LEFT-GPIO11-Pad17)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "17")
+				(pinfunction "GPIO11_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J_MCU_LEFT-GPIO12-Pad18)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "18")
+				(pinfunction "GPIO12_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J_MCU_LEFT-GPIO13-Pad19)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "19")
+				(pinfunction "GPIO13_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J_MCU_LEFT-GPIO14-Pad20)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "20")
+				(pinfunction "GPIO14_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J_MCU_LEFT-GPIO15-Pad8)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "8")
+				(pinfunction "GPIO15_8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J_MCU_LEFT-GPIO16-Pad9)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "9")
+				(pinfunction "GPIO16_9")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J_MCU_LEFT-GPIO17-Pad10)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "10")
+				(pinfunction "GPIO17_10")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J_MCU_LEFT-GPIO18-Pad11)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "11")
+				(pinfunction "GPIO18_11")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J_MCU_LEFT-GPIO46-Pad14)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "14")
+				(pinfunction "GPIO46_14")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J_MCU_LEFT-RST-Pad3)")
+			(class "Default")
+			(node
+				(ref "J_MCU_LEFT")
+				(pin "3")
+				(pinfunction "RST_3")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J_MCU_RIGHT-GPIO0-Pad14)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "14")
+				(pinfunction "GPIO0_14")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(J_MCU_RIGHT-GPIO19-Pad20)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "20")
+				(pinfunction "GPIO19_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(J_MCU_RIGHT-GPIO20-Pad19)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "19")
+				(pinfunction "GPIO20_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(J_MCU_RIGHT-GPIO35-Pad13)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "13")
+				(pinfunction "GPIO35_13")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J_MCU_RIGHT-GPIO36-Pad12)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "12")
+				(pinfunction "GPIO36_12")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J_MCU_RIGHT-GPIO37-Pad11)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "11")
+				(pinfunction "GPIO37_11")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(J_MCU_RIGHT-GPIO38-Pad10)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "10")
+				(pinfunction "GPIO38_10")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(J_MCU_RIGHT-GPIO39-Pad9)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "9")
+				(pinfunction "GPIO39_9")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(J_MCU_RIGHT-GPIO40-Pad8)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "8")
+				(pinfunction "GPIO40_8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(J_MCU_RIGHT-GPIO41-Pad7)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "7")
+				(pinfunction "GPIO41_7")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J_MCU_RIGHT-GPIO42-Pad6)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "6")
+				(pinfunction "GPIO42_6")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J_MCU_RIGHT-GPIO45-Pad15)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "15")
+				(pinfunction "GPIO45_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J_MCU_RIGHT-GPIO47-Pad17)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "17")
+				(pinfunction "GPIO47_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(J_MCU_RIGHT-GPIO48-Pad16)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "16")
+				(pinfunction "GPIO48_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(J_MCU_RIGHT-RX-Pad3)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "3")
+				(pinfunction "RX_3")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(J_MCU_RIGHT-TX-Pad2)")
+			(class "Default")
+			(node
+				(ref "J_MCU_RIGHT")
+				(pin "2")
+				(pinfunction "TX_2")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U6-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

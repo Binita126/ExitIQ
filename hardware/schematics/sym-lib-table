@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ExitIQ")(type "KiCad")(uri "${KIPRJMOD}/../libraries/symbols/ExitIQ.kicad_sym")(options "")(descr "ExitIQ Custom Project Symbols"))
+)
